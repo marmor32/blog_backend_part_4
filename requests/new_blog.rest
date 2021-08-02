@@ -1,0 +1,12 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hbmFnZXIiLCJpZCI6IjYxMDdhOTk1OWE1ZDM2NTJmODEzN2NmNyIsImlhdCI6MTYyNzkwMDc3OH0.bZ0wIycEzogvGVka1LM_OKzUTcIx_QF54nIs-AK5zd0
+
+
+{
+    "title":"new user blog",
+    "author":"author",
+    "url":"http://localhost:3001/api/blogs",
+    "likes": 53,
+    "userId": "6107a9959a5d3652f8137cf7"
+}
